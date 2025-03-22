@@ -104,7 +104,10 @@ body{
     color: var(--VERY-DARK-GRAYISH-BLUE);
 }
 #card-three .card__desc p{
-    color: var(--LIGHT-GRAY);
+    color: var(--VERY-DARK-BLACKISH-BLUE);
+}
+#card-three .card__profile__desc p{
+    color: var(--VERY-DARK-GRAYISH-BLUE);
 }
 #card-four{
     background-color: var(--VERY-DARK-BLACKISH-BLUE);
@@ -129,21 +132,6 @@ body{
 #card-five h1{
     width: 28rem;
 }
-/* .attribution {
-    font-size: 13px;
-    align-self: center;
-    justify-self: center;
-    position: absolute;
-    bottom: 0;
-    transform: translateX(-50%);
-    left: 50%;
-    width: max-content;
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-    color: var(--VERY-DARK-BLACKISH-BLUE);
-    gap: 1rem;
-} */
 .box{
     margin-bottom: 6rem;
 }
@@ -163,7 +151,7 @@ body{
     .box{
         display: grid;
         row-gap: 3rem;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 34rem);
         grid-template-rows: repeat(2, 28.5rem);
     }
     #card-one{
@@ -194,7 +182,7 @@ body{
     }
     .card{
         margin-bottom: 0;
-        padding: 3.5rem;
+        padding: 2.5rem;
     }
     html{
         height: 100%;
@@ -216,7 +204,7 @@ body{
         width: 24rem;
     }
     #card-two .card__desc p{
-        width: 20rem;
+        width: 23rem;
     }
     #card-three .card__desc h1{
         width: 18rem;
@@ -234,7 +222,7 @@ body{
         width: 24rem;
     }
     #card-five p{
-        width: 22rem;
+        width: 24rem;
     }
     .card__desc h1{
         font-size: 2rem;
